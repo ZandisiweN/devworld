@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+nav {
+  background-color: darkblue;
+  box-shadow: 0 7px 10px rgba(0, 0, 0, 0.3);
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.3rem 0;
+}
+
+.logo {
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 2.2rem;
+}
